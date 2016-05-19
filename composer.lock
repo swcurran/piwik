@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "de61be52972a0fe8fe751306c271f4b8",
-    "content-hash": "68130b067cdceef8346b47d858b763a3",
+    "hash": "0978bcd63a09bde7305cc9383f78a7ec",
+    "content-hash": "d0ca9971c179c028564b7f37bcfe22c9",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -1001,16 +1001,16 @@
         },
         {
             "name": "piwik/searchengine-and-social-list",
-            "version": "1.2.0",
+            "version": "dev-improveemptykeyworddetection",
             "source": {
                 "type": "git",
                 "url": "https://github.com/piwik/searchengine-and-social-list.git",
-                "reference": "276e03a2f0dfe1559f57d6e2cba9258305ecdba5"
+                "reference": "3cd63817aed014908b5e6878b749836fe40485e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/piwik/searchengine-and-social-list/zipball/276e03a2f0dfe1559f57d6e2cba9258305ecdba5",
-                "reference": "276e03a2f0dfe1559f57d6e2cba9258305ecdba5",
+                "url": "https://api.github.com/repos/piwik/searchengine-and-social-list/zipball/3cd63817aed014908b5e6878b749836fe40485e2",
+                "reference": "3cd63817aed014908b5e6878b749836fe40485e2",
                 "shasum": ""
             },
             "type": "library",
@@ -1019,7 +1019,7 @@
                 "Public Domain"
             ],
             "description": "Search engine and social network definitions used by Piwik",
-            "time": "2016-02-17 06:55:15"
+            "time": "2016-05-19 16:53:46"
         },
         {
             "name": "psr/log",
@@ -2708,6 +2708,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "php-di/php-di": 10,
+        "piwik/searchengine-and-social-list": 20,
         "facebook/xhprof": 20
     },
     "prefer-stable": false,
